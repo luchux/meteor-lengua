@@ -1,0 +1,29 @@
+<template name="cardLayout">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-2">left</div>
+            <div class="col-xs-8">
+                {{> yield region="cardContent"}}
+            </div>
+            <div class="col-xs-2">right</div>
+        </div>
+    </div>
+</template>
+
+<template name="card">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="thumbnail text-center">
+            {{#each images}}
+            <img src="{{src}}"/>
+            {{/each}}
+
+          <div class="caption">
+            <h3>{{foreign}}</h3>
+            <i class="fa fa-bullhorn"></i>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</template>

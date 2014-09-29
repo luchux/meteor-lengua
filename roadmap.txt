@@ -1,0 +1,12 @@
+RoadMap:
+
+- Cards:
+   - image
+   - foreign word
+   - pronunciation
+   - tip think a sentence
+
+- CardsView:
+    - List of cards
+    - Slide them
+
