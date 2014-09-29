@@ -1,0 +1,1 @@
+WordCards = new Mongo.Collection('wordCards');
